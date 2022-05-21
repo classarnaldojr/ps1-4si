@@ -2,7 +2,7 @@
 
 ## PS - 1 Semestre
 
-**Prova prática e individual com consulta.**
+**Prova prática em grupo com consulta.**
 
 Nome:___________________________________________________
 
@@ -13,12 +13,11 @@ Observações da avaliação nesta disciplina:
 
 
 * A prova é prática, com o objetivo de avaliar sua compreensão relacionado ao conteúdo ministrado pela disciplina. 
-* A prova é individual
-* É permitido consulta a todo material pessoal (suas anotações, códigos) e público (github e internet), mas não pode consultar outros alunos.
+* A prova é em grupo
+* É permitido consulta a todo material pessoal (suas anotações, códigos) e público (github e internet).
 * Ponha o seu nome no enunciado da prova
 * Todos os códigos fornecidos estão executando perfeitamente.
 * Entregue código que executa, código que não executa é zero!
-* Não é permitido compartilhar informações com colegas ou qualquer pessoa durante a prova, seja online ou presencial.
 * A responsabilidade por ter o *setup* funcionando é de cada estudante
 * Os exercícios admitem diversas estratégias de resolução. A prova de cada aluno é única.
 * Casos intermediários ou omissos da rubrica serão decididos pelo professor.
@@ -30,28 +29,33 @@ Observações da avaliação nesta disciplina:
 
 # Questões
 
+Inspirado no contexto do Metaverso para crianças, vamos utilizar visão computacional para criar dois jogos.
+
 
 ## Questão 1  (5 pontos)
 
-Você deve fazer um programa que detecta a colisão entre as formas geométricas.
+Você deve fazer um programa que detecta a colisão entre as formas geométricas. 
 
 
-#### Orientações
+### Orientações
 
 Você vai trabalhar no arquivo `q1/q1.py`. com o vídeo `q1A.mp4` ou `q1B.mp4`que já estão no diretório.
 
-O vídeo para prova tem como base a soma de todos os dígitos do RM:
+O vídeo para prova tem como base a soma de todos os dígitos do RM de todos os componentes do grupo:
 
 |Soma RM | Video|
 |--------|------| 
 |De 1 até 5 | q1A|
 |De 6 até 9 | q1B|
 
-Exemplo: RM090174 = 0+9+0+1+7+4 = 21=> 2+1 = 3 usar o víideo q1A
+Exemplo: RM090174,RM0224,.. = 0+9+0+1+7+4 + 0+2+2+4... = 29=> 2+9 = 11 => 1+1 = 2 usar o víideo q1A
 
-#### O que você deve fazer:
+### O que você deve fazer:
 
 Fazer o programa que devolve um output visual de acordo com a rubrica. 
+
+Atenção: Não pode usar Template Matching, Feature Detection, Machine Learing ou Deep Learning.
+
 
 ### Rubrica
 
@@ -60,7 +64,7 @@ O que é esperado para cada rubrica:
 |Resultado| Conceito| 
 |----------|--------|
 |R0 – Não executa | 0 |
-|R1 – Detecta todas as formas geométrica e produz saída visual demonstrando | 1 |
+|R1 – Detecta todas as formas geométrica por cor e produz saída visual demonstrando | 1 |
 |R2 – Identifica a forma geométrica de maior massa com um retângulo verde em output visual | 2 |
 |R3 – Detecta colisão entre as formas geométricas e identifica escrevendo no output visual “COLISÃO DETECTADA” | 4 |
 |R4 – Identifica e exibe que a forma geométrica de maior massa ultrapassou completamente a outra forma geométrica | 5 |
@@ -90,12 +94,12 @@ Se você precisar gerar mais de uma imagem de `debug` para demonstrar como seu p
 Você deve fazer um programa que realiza a contagem de cartas vermelhas e cartas pretas que aparecem na tela.
 
 
-#### Orientações
+### Orientações
 
 Você vai trabalhar no arquivo `q2/q2.py` com o vídeo `q2.mp4` que já está no diretório.
 
 
-#### O que você deve fazer:
+### O que você deve fazer:
 
 Fazer o programa que devolve um output visual de acordo com a rubrica. 
 
